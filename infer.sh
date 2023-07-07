@@ -1,0 +1,3 @@
+python3 synthesize.py --text "This is a test and I don't know how this will work" --ref_audio /Users/tanishsurana/Reddit-yt/redvid-master/StyleSpeech-main/ref.mp3  --restore_step 200000 --mode single -p config/LibriTTS/preprocess.yaml -m config/LibriTTS/model.yaml -t config/LibriTTS/train.yaml
+
+python synthesize.py --text "this is a test" --ref_audio /Users/tanishsurana/Reddit-yt/redvid-master/StyleSpeech-main/ref.mp3 --checkpoint_path /Users/tanishsurana/Reddit-yt/redvid-master/StyleSpeech-main/meta_stylespeech.pth.tar
